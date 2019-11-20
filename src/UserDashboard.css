@@ -1,0 +1,182 @@
+.dashboard-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.left-block{
+    width: 20%;
+    background: #282d36;
+}
+.container-header{
+    height: 9%;
+    font-style: italic;
+    font-size: 24px;
+    color: #ffffff;
+    padding-top: 25px;
+    text-align: center;
+}
+.right-header{
+    border-bottom: 1px solid #282d36;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #282d36;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.my-border{
+    border-bottom: 1px solid #ffffff;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.options-block{
+    height: 85%;
+}
+.each-option{
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.right-block{
+    position: relative;
+    width: 80%;
+    /* height: 100vh; */
+}
+.right-container{
+    width: 100%;
+    height: 86%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-user-block{
+    height: 350px;
+    width: 400px;
+}
+.each-div{
+    margin-bottom: 10px;
+}
+.each-label{
+    font-size: 18px;
+    color: #000;
+    opacity: 0.6;
+    font-style: italic;
+}
+.each-input{
+    width: 100%;
+    margin: 10px;
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+}
+.each-input:focus{
+    outline: none;
+}
+.radio-input{
+    margin: 20px;
+}
+textarea{
+    width: 100%;
+    height: 50px;
+    resize: none;
+    margin-top: 10px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+textarea:focus{
+    outline: none;
+}
+.button-edit{
+    margin: 31px;
+    width: 120px;
+    height: 39px;
+    border-radius: 50px;
+    color: #ffffff;
+    background: #282d36;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.button-add{
+    width: 75px;
+    height: 30px;
+    border-radius: 50px;
+    color: #ffffff;
+    background: #282d36;
+    border: none;
+    cursor: pointer;
+    margin-left: 10rem;
+    margin-top: 1rem;
+}
+.button-add:focus{
+ outline: none;
+}
+.user-view-row{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.each-title{
+    padding: 8px 35px;
+    font-size: 18px;
+    text-align: left;
+    color: #000;
+    opacity: 0.6;
+    font-style: italic;
+}
+.each-user-value{
+    padding: 8px 35px;
+    text-align: center;
+}
+.table-button{
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    cursor: pointer;
+    background: #ffffff;
+    color: #282d36;
+    font-size: 14px;
+    padding: 8px 35px;
+}
+.table-button:hover{
+    background: #282d36;
+    color: #ffffff;
+}
+.selected{
+    background: #282d36;
+    color: #ffffff;
+}
+.overlay{
+    z-index: 99999;
+    position: absolute;
+    border: 1px solid;
+    top: 125px;
+    background: #ffffff;
+    right: 240px;
+    padding: 30px;
+}
+.error-text{
+    color: red;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+}
+.error-text{
+    color: green;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+}
+.empty-screen{
+    font-style: italic;
+    font-size: 32px;
+    font-weight: bold;
+}
+button:focus{
+    outline: none;
+}
